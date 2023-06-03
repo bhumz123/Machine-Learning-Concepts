@@ -1,0 +1,41 @@
+Feature selection techniques
+***Filter based
+Basically from the set of all attributes the best features are selected, based on statistical measures.
+
+1) chi square
+2) correlation
+3) anova test 
+
+***Wrapper method
+
+Forward selection ( keeps on adding features 1 by 1)
+Reverse selection (lowest impact)
+Recursive Feature selection (preferable for smaller datasets)
+
+
+# Techniques
+***Univariate selection
+Uses statistical analysis
+Finds independent variables that hold strong relation with output
+Library used is selectkbest
+Link - https://github.com/krishnaik06/Feature-Selection-techniques
+Using chi2
+
+***Feature Importance
+Tells the  importance of features
+
+***Correlation with heatmap
+
+*** dropping constant features 
+That doesnt contribute and arent important for solving the problem
+Basically the attribute that has constant values 
+We can use *** VARIANCE THRESHOLD from scikit learn***
+Preferable for unsupervised  learning
+Link https://github.com/krishnaik06/Complete-Feature-Selection
+
+
+*** Mutual Information***
+Measures the dependencies between he variables
+Higher value means higher dependency
+Mainly for classification problems
+Based on entropy estimation , KNN
